@@ -29,14 +29,14 @@ header {
 
 .logo {
     font-size: 2em;
-    color: white;
+    color: #4d7eff;
     user-select: none;
 }
 
 .navigation a {
     position: relative;
     font-size: 1.1em;
-    color: white;
+    color:#4d7eff;
     text-decoration: none;
     font-weight: 500;
     margin-left: 40px;
