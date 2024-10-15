@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(background.jpg) no-repeat;
+    background-color: hsla(0, 70%, 32%, 0.699);
     background-size: cover;
     background-position: center;
 }
@@ -24,19 +24,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 99;
 }
 
 .logo {
     font-size: 2em;
-    color: #4d7eff;
+    color: #fff;
     user-select: none;
 }
 
 .navigation a {
     position: relative;
     font-size: 1.1em;
-    color:#4d7eff;
+    color:#fff;
     text-decoration: none;
     font-weight: 500;
     margin-left: 40px;
@@ -89,7 +88,7 @@ header {
 }
 
 .wrapper {
-    position: relative;
+    position:absolute;
     width: 400px;
     height: 440px;
     background: transparent;
